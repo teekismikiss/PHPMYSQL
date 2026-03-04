@@ -1,0 +1,171 @@
+/* ==========================
+   Reset básico
+========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+img {
+    width: 200px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+/* ==========================
+   Body
+========================== */
+body {
+    background-color: #fdf6e3;
+    /* Beige cálido */
+    color: #4b3621;
+    /* Marrón suave para texto */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ==========================
+   Encabezado
+========================== */
+header {
+    background-color: #a9745b;
+    /* Madera clara */
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+    font-family: 'Georgia', serif;
+    border-bottom: 4px solid #8b5e3c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    color: #6b4226;
+    text-shadow: 1px 1px 2px #fff2e6;
+    margin-bottom: 30px;
+}
+
+/* ==========================
+   Categorías (h2)
+========================== */
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #8b5e3c;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #a9745b;
+    padding-bottom: 5px;
+}
+
+/* ==========================
+   Platos
+========================== */
+
+
+/* ==========================
+   Línea separadora
+========================== */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #a9745b;
+    margin: 15px 0;
+}
+
+/* ==========================
+   Footer
+========================== */
+footer {
+    background-color: #a9745b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 4px solid #8b5e3c;
+    font-family: 'Georgia', serif;
+}
+
+/* ==========================
+  boton & formulario
+========================== */
+.form {
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+label.form {
+    display: inline-block;
+    width: 160px;
+}
+
+input.form {
+    margin-bottom: 12px;
+}
+
+.btnSave {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.formulario {
+    text-align: center;
+    border: 1px solid #8b5e3c;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 30px;
+
+}
+
+
+
+/* ==========================
+   Toques amigables
+========================== */
+/* Bordes redondeados y márgenes suaves */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Fondos suaves para familias y niños */
+body p,
+body span {
+    font-size: 1em;
+}
+
+.nombre {
+    font-weight: bolder;
+}
+
+.plato-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plato-header h3 {
+    margin: 0;
+}
+
+.num {
+    margin-left: 12px;
+}
+
+.plato-item {
+    margin-bottom: 24px;
+}
+
+/* Hacer que todo se vea acogedor */

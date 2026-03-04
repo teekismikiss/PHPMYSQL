@@ -1,0 +1,100 @@
+{
+    "Primero": [
+        {
+            "id": 1,
+            "activo": true,
+            "nombre": "Croquetas",
+            "ingredientes": "Queso,Pollo",
+            "alergeno": "Gluten",
+            "precio": "6",
+            "foto": ""
+        },
+        {
+            "id": 7,
+            "activo": true,
+            "nombre": "Tabla de quesos",
+            "ingredientes": "leche de cabra",
+            "alergeno": "lacteo",
+            "precio": "17",
+            "foto": ""
+        },
+        {
+            "id": 9,
+            "activo": true,
+            "nombre": "Ensalada vegetal",
+            "ingredientes": "lechuga,bonito,pimiento",
+            "alergeno": "gluten free",
+            "precio": "10",
+            "foto": ""
+        },
+        {
+            "id": 10,
+            "activo": true,
+            "nombre": "gmnñ",
+            "ingredientes": "ngsf",
+            "alergeno": "nsgfs",
+            "precio": "2",
+            "foto": ""
+        },
+        {
+            "id": 11,
+            "activo": true,
+            "nombre": "kgk",
+            "ingredientes": "kghk",
+            "alergeno": "kk",
+            "precio": "3",
+            "foto": ""
+        }
+    ],
+    "Segundo": [
+        {
+            "id": 2,
+            "activo": true,
+            "nombre": "Fabada",
+            "ingredientes": "Habas,Chorizo,Morcilla",
+            "alergeno": "Sin Alergeno",
+            "precio": "10",
+            "foto": ""
+        }
+    ],
+    "Postre": [
+        {
+            "id": 3,
+            "activo": true,
+            "nombre": "Casadiellas",
+            "ingredientes": "Anís,Nueces",
+            "alergeno": "Frutos Secos",
+            "precio": "5",
+            "foto": "https:\/\/inkscape.app\/wp-content\/uploads\/imagen-vectorial.webp"
+        },
+        {
+            "id": 8,
+            "activo": true,
+            "nombre": "Tarta de quesu",
+            "ingredientes": "huevo,arandanos",
+            "alergeno": "Lacteo,huevo",
+            "precio": "8",
+            "foto": ""
+        }
+    ],
+    "Bebida": [
+        {
+            "id": 4,
+            "activo": true,
+            "nombre": "Sidra",
+            "ingredientes": "Manzana",
+            "alergeno": "",
+            "precio": "2",
+            "foto": ""
+        },
+        {
+            "id": 5,
+            "activo": true,
+            "nombre": "cafe",
+            "ingredientes": "",
+            "alergeno": "",
+            "precio": "1.70",
+            "foto": ""
+        }
+    ]
+}
