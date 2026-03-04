@@ -1,0 +1,56 @@
+{
+    "socios": [
+        {
+            "socio": "Pepita",
+            "rol": "admin"
+        },
+        {
+            "socio": "Pepito",
+            "rol": "editor"
+        },
+        {
+            "socio": "Pepe",
+            "rol": "redactor"
+        },
+        {
+            "socio": "Pepa",
+            "rol": "colaborada"
+        },
+        {
+            "socio": "Luke",
+            "rol": "maestro jedy"
+        },
+        {
+            "socio": "Luke",
+            "rol": "maestro jedy"
+        },
+        {
+            "socio": "Luke",
+            "rol": "maestro jedy"
+        },
+        {
+            "socio": "Luke",
+            "rol": "maestro jedy"
+        },
+        {
+            "socio": "ooihñ",
+            "rol": "socio"
+        },
+        {
+            "socio": "asdfsadf",
+            "rol": "asdfasfd"
+        },
+        {
+            "socio": "asdfsadf",
+            "rol": "454545"
+        },
+        {
+            "socio": "asdfsadf",
+            "rol": "454545"
+        },
+        {
+            "socio": "asdfsadf",
+            "rol": "454545"
+        }
+    ]
+}
