@@ -173,15 +173,168 @@ UPDATE compania SET nacionalidad = 'Fr' WHERE nombre = 'Air France'
 
 ----- consultas un poco mas complicada------------------------------------------------------------------------------------------------------
 
-SELECT 
-  compania.codigo AS codigo,
-  compania.nombre AS compañia,
-  compania.nacionalidad,
-  vuelos.nombre AS salida,
-  vuelos.tipo AS tipo_vuelo,
-  vuelos_compania.codigo_aeropuerto AS aeropuerto
-FROM vuelos_compania
-JOIN vuelos 
-  ON vuelos_compania.id_vuelo = vuelos.id
-JOIN compania  
-  ON vuelos_compania.id_compania = compania.id;
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'CDG'
+WHERE id_vuelo = 5 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'CDG'
+WHERE id_vuelo = 5 AND id_compania = 2;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BVA'
+WHERE id_vuelo = 5 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'ORY'
+WHERE id_vuelo = 5 AND id_compania = 4;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MAD'
+WHERE id_vuelo = 1 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MAD'
+WHERE id_vuelo = 1 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MAD'
+WHERE id_vuelo = 1 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MAD'
+WHERE id_vuelo = 2 AND id_compania = 4;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BCN'
+WHERE id_vuelo = 2 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BCN'
+WHERE id_vuelo = 2 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BCN'
+WHERE id_vuelo = 2 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BCN'
+WHERE id_vuelo = 2 AND id_compania = 4;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BIO'
+WHERE id_vuelo = 3 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BIO'
+WHERE id_vuelo = 3 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BIO'
+WHERE id_vuelo = 3 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'BIO'
+WHERE id_vuelo = 3 AND id_compania = 4;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'OVD'
+WHERE id_vuelo = 4 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 4 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 4 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 4 AND id_compania = 4;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 5 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'DUB'
+WHERE id_vuelo = 5 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'DUB'
+WHERE id_vuelo = 5 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'DUB'
+WHERE id_vuelo = 5 AND id_compania = 4;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'JFK'
+WHERE id_vuelo = 6 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'JFK'
+WHERE id_vuelo = 6 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 6 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'JFK'
+WHERE id_vuelo = 6 AND id_compania = 4;
+
+c
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'WAT'
+WHERE id_vuelo = 8 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 8 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 8 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 8 AND id_compania = 4;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MVD'
+WHERE id_vuelo = 4 AND id_compania =1;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'MVD'
+WHERE id_vuelo = 4 AND id_compania = 2;
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 4 AND id_compania = 3;
+
+
+UPDATE vuelos_compania 
+SET codigo_aeropuerto = 'NULL'
+WHERE id_vuelo = 4 AND id_compania = 4;
