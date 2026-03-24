@@ -89,3 +89,61 @@ INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (8, 3),  -- Nantes - Ryanair
   (6, 3),  -- Dublin - Ryanair
   (9, 3);  -- Waterford - Ryanair
+
+LAS CONSULTAS
+
+SELECT *
+FROM vuelos_compania
+  JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
+  JOIN compania  ON vuelos_compania.id_compania = compania.id;
+
+
+
+--- --consulta Salida | compania| tipo de vuelo
+
+SELECT 
+vuelos.nombre AS salida,
+compania.nombre AS compania,
+vuelos.tipo AS tipo
+
+FROM vuelos_compania
+  JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
+  JOIN compania  ON vuelos_compania.id_compania = compania.id;
+
+
+---
+
+--consulta compania | codigo | vuelo | tipo de vuelo
+
+SELECT *
+FROM vuelos_compania
+  JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
+  JOIN compania  ON vuelos_compania.id_compania = compania.id;
+
+
+
+--- --consulta Salida | compania| tipo de vuelo
+
+SELECT 
+vuelos.nombre AS salida,
+compania.nombre AS compania,
+vuelos.tipo AS tipo
+
+FROM vuelos_compania
+  JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
+  JOIN compania  ON vuelos_compania.id_compania = compania.id;
+
+
+---
+
+--consulta compania | codigo | vuelo | tipo de vuelo
+
+SELECT 
+compania.codigo AS codigo,
+compania.nombre AS compañia,
+vuelos.nombre AS salida,
+vuelos.tipo AS "tipo de vuelo"
+
+FROM vuelos_compania
+  JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
+  JOIN compania  ON vuelos_compania.id_compania = compania.id;
