@@ -147,3 +147,19 @@ vuelos.tipo AS "tipo de vuelo"
 FROM vuelos_compania
   JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
   JOIN compania  ON vuelos_compania.id_compania = compania.id;
+
+
+----- consultas un poco mas complicada
+
+SELECT 
+  compania.codigo AS codigo,
+  compania.nombre AS compañia,
+  compania.nacionalidad,
+  vuelos.nombre AS salida,
+  vuelos.tipo AS tipo_vuelo,
+  vuelos_compania.codigo_aeropuerto AS aeropuerto
+FROM vuelos_compania
+JOIN vuelos 
+  ON vuelos_compania.id_vuelo = vuelos.id
+JOIN compania  
+  ON vuelos_compania.id_compania = compania.id;
