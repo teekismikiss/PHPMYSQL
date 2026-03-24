@@ -34,7 +34,7 @@ INSERT INTO compania (nombre, codigo) VALUES
   ('Ryanair', 'FR'),
   ('Air France', 'AF');
 
--- Insertar vuelos con categoría corregida
+-- Insertar vuelos con categoría
 INSERT INTO vuelos (nombre, tipo) VALUES
   ('Madrid', 'nacional'),
   ('Barcelona', 'nacional'),
@@ -49,7 +49,7 @@ INSERT INTO vuelos (nombre, tipo) VALUES
 
 -- Relación vuelos-compañía
 
--- Iberia: Oviedo, Madrid, Barcelona, Bilbao, Paris, Nueva York, Uruguay, Dublin
+
 INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (4, 1),  -- Oviedo - Iberia
   (1, 1),  -- Madrid - Iberia
@@ -60,7 +60,7 @@ INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (10, 1), -- Uruguay - Iberia
   (6, 1);  -- Dublin - Iberia
 
--- Air France: Nantes, Madrid, Barcelona, Bilbao, Paris, Nueva York, Dublin
+
 INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (8, 4),  -- Nantes - Air France
   (1, 4),  -- Madrid - Air France
@@ -70,7 +70,7 @@ INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (7, 4),  -- Nueva York - Air France
   (6, 4);  -- Dublin - Air France
 
--- Air Europa: Madrid, Barcelona, Bilbao, Paris, Nueva York, Uruguay, Dublin
+
 INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (1, 2),  -- Madrid - Air Europa
   (2, 2),  -- Barcelona - Air Europa
@@ -80,7 +80,7 @@ INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (10, 2), -- Uruguay - Air Europa
   (6, 2);  -- Dublin - Air Europa
 
--- Ryanair: Madrid, Barcelona, Bilbao, Paris, Nantes, Dublin, Waterford
+
 INSERT INTO vuelos_compania (id_vuelo, id_compania) VALUES
   (1, 3),  -- Madrid - Ryanair
   (2, 3),  -- Barcelona - Ryanair
