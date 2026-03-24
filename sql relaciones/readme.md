@@ -147,9 +147,31 @@ vuelos.tipo AS "tipo de vuelo"
 FROM vuelos_compania
   JOIN vuelos ON vuelos_compania.id_vuelo = vuelos.id
   JOIN compania  ON vuelos_compania.id_compania = compania.id;
+  
+--------------------------------------------------------------------------------------------------------------------------------------------
+-- Añadir nacionalidad a compañia
+ALTER TABLE compania 
+ADD nacionalidad VARCHAR(100);
+
+-- Añadir código de aeropuerto (IATA) a vuelos_compania
+ALTER TABLE vuelos_compania 
+ADD codigo_aeropuerto VARCHAR(10);
 
 
------ consultas un poco mas complicada
+
+UPDATE compania SET nacionalidad = 'Es' WHERE nombre = 'Iberia';
+UPDATE compania SET nacionalidad = 'Es' WHERE nombre = 'Air Europa';
+UPDATE compania SET nacionalidad = 'Ir' WHERE nombre = 'Ryanair';
+UPDATE compania SET nacionalidad = 'Fr' WHERE nombre = 'Air France'
+
+
+
+
+
+
+
+
+----- consultas un poco mas complicada------------------------------------------------------------------------------------------------------
 
 SELECT 
   compania.codigo AS codigo,
